@@ -1,0 +1,29 @@
+{
+  "name": "forum-login",
+  "version": "0.1.1",
+  "description": "",
+  "homepage": "https://forum.ax",
+  "main": "index.html",
+  "browserslist": [
+    "last 2 edge version",
+    "last 2 firefox version",
+    "last 2 safari version",
+    "last 2 chrome version"
+  ],
+  "scripts": {
+    "start": "parcel ./index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@pipeline-ui-2/pipeline": "1.2.6",
+    "parcel": "1.9.7",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "FORUM",
+    "Algorand"
+  ]
+}
